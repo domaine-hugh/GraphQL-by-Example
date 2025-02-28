@@ -1,8 +1,7 @@
 import { ApolloServer } from '@apollo/server'
 import { startStandaloneServer } from '@apollo/server/standalone'
 
-const typeDefs = `
-  # This is a test graphql schema
+const typeDefs = `#graphql
   type Query {
     greeting: String
   }
